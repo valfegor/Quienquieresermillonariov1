@@ -106,3 +106,25 @@ Inicio de la pagina de preguntas
     border:1px solid #444;
     color: #444;
 }
+
+.cajapreguntas{
+    background-color: red;
+    color: #fff;
+    border-radius:10px;
+    padding:10px 15px;
+}
+
+.cajaopciones {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    grid-gap: 15px;
+}
+
+.cajaopciones span {
+    background-color:#ccc;
+    border-radius:10px;
+    color: #444;
+    border:1px solid #444;
+    padding:10px 15px;
+}
