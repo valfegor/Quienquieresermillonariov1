@@ -21,16 +21,18 @@ imprimirpreguntas(index);
 
 
 function imprimirpreguntas(i) {
+
     let span1 = document.getElementById("span1");
     let span2 = document.getElementById("span2");
     let span3 = document.getElementById("span3");
     let span4 = document.getElementById("span4");
+    let titulopreg = document.getElementById("titulo");
 
     span1.innerHTML = preguntas[i].opcion[0];
     span2.innerHTML = preguntas[i].opcion[1];
     span3.innerHTML = preguntas[i].opcion[2];
     span4.innerHTML = preguntas[i].opcion[3];
-
+    titulopreg.innerHTML = preguntas[i].pregunta;
 }
 
 
