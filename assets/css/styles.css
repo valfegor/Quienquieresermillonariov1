@@ -128,3 +128,15 @@ Inicio de la pagina de preguntas
     border:1px solid #444;
     padding:10px 15px;
 }
+
+.cajaopciones span.correcto{
+    background-color: green;
+    border-color: #00ab00;
+    color: #fff;
+}
+
+.cajaopciones span.incorrecto{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
